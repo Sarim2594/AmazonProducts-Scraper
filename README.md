@@ -2,8 +2,6 @@
 
 A lightweight, robust Python script that dynamically scrapes product information from Amazon search results across **all available pages** and exports the data directly to an Excel file using `pandas`. 
 
-Built with simplicity in mind, the codebase is short (~130 lines) and removes unnecessary boilerplate while retaining essential anti-bot evasion techniques.
-
 ## Features
 
 - **Dynamic Pagination**: Automatically traverses through all search result pages using the "Next" button.
@@ -15,7 +13,6 @@ Built with simplicity in mind, the codebase is short (~130 lines) and removes un
 ## Prerequisites
 
 - Python 3.7+
-- Recommended to use a virtual environment.
 
 ## Installation
 
@@ -25,7 +22,6 @@ Built with simplicity in mind, the codebase is short (~130 lines) and removes un
 ```bash
 pip install requests beautifulsoup4 pandas
 ```
-*(Note: `pandas` will automatically install `openpyxl` under the hood to handle Excel `.xlsx` files, but you only interface with `pandas` in the code).*
 
 ## Usage
 
